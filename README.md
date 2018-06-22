@@ -27,4 +27,4 @@ npm run server
 ```
 -> run at localhost by webpack-dev-middleware and express 
 
-recomment to run with server-render web 
+recommend to run with server-render web 

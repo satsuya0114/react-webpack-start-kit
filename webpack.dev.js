@@ -10,7 +10,10 @@ module.exports = merge(common, {
   devServer: { // https://webpack.js.org/configuration/dev-server/#src/components/Sidebar/Sidebar.jsx
     hot: true,
     compress: true,
-    historyApiFallback: true
+    historyApiFallback: true // when use react-router-dom browserRouter ( html 5 api) should add this item
+    // see https://webpack.js.org/configuration/dev-server/#src/components/Sidebar/Sidebar.jsx 
+    // When using the HTML5 History API, the index.html page will likely have to be served in place of any 404 responses. Enable this by passing
+    // historyApiFallback: true
   },
   plugins: [
     // new HtmlWebpackPlugin({

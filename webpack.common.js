@@ -93,7 +93,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src/index.html'),
     }),
-    new webpack.NamedChunksPlugin(),
+    new webpack.NamedChunksPlugin(), // https://webpack.docschina.org/guides/hot-module-replacement/
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional

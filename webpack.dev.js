@@ -19,7 +19,7 @@ module.exports = merge(common, {
     // new HtmlWebpackPlugin({
     //   template: path.resolve(__dirname, 'src/index.html'),
     // }),
-    new webpack.HotModuleReplacementPlugin(),
+    new webpack.HotModuleReplacementPlugin(), // https://webpack.docschina.org/guides/hot-module-replacement/
   ],
   mode: 'development'
 });
